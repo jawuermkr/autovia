@@ -5,7 +5,11 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <!-- Favicon estándar de 32x32 píxeles -->
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+    <!-- Favicon para dispositivos Apple -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon.png">
     <title>Autovía Asistencia - Tu Varada, Nuestra Prioridad</title>
 
     <!-- Bootstrap -->
@@ -34,7 +38,7 @@ REDES SOCIALES
 WHATSAPP
 =========================== -->
 
-    <a href="https://wa.me/573249917505" target="_blank" class="btn-whatsapp">
+    <a href="https://wa.me/573249117505" target="_blank" class="btn-whatsapp">
 
         <i class="fab fa-whatsapp"></i>
 
@@ -54,7 +58,7 @@ HERO
                     <p class="lead my-4">
                         Nuestro personal desplegado estratégicamente llegará en minutos.
                     </p>
-                    <a href="https://wa.me/573249917505" target="_blank" class="btn primacolor btn-lg px-5">
+                    <a href="https://wa.me/573249117505" target="_blank" class="btn primacolor btn-lg px-5">
                         <i class="fab fa-whatsapp"></i>
                         ¡Contáctar Ahora!
                     </a>
@@ -137,24 +141,22 @@ SERVICIOS
                     <h2 class="text-center mb-4">
                         Déjanos tus comentarios
                     </h2>
-                    <form>
+                    <form action="mail.php" method="post">
                         <div class="row">
                             <div class="col-md-6 mb-3">
-                                <input type="text" class="form-control" placeholder="Nombre">
+                                <input type="text" class="form-control" name="nombre" placeholder="Nombre">
                             </div>
                             <div class="col-md-6 mb-3">
-                                <input type="tel" class="form-control" placeholder="Teléfono">
+                                <input type="tel" class="form-control" name="cel" placeholder="Teléfono">
                             </div>
                         </div>
                         <div class="mb-3">
-                            <input type="email" class="form-control" placeholder="Correo">
+                            <input type="email" class="form-control" name="mail" placeholder="Correo">
                         </div>
                         <div class="mb-3">
-                            <textarea class="form-control" rows="5" placeholder="Describe la emergencia"></textarea>
+                            <textarea class="form-control" rows="5" name="mensaje" placeholder="Describe la emergencia"></textarea>
                         </div>
-                        <button class="btn primacolor w-100">
-                            Enviar solicitud
-                        </button>
+                        <input class="btn primacolor w-100" type="submit" name="btnSend" value="Enviar">
                     </form>
                 </div>
             </div>
