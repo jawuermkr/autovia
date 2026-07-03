@@ -2,14 +2,15 @@
 
 if (isset($_POST['btnSend'])) {
 
-  $nombre  = htmlspecialchars($_POST['nombre']);
-  $cel     = htmlspecialchars($_POST['cel']);
-  $mail    = htmlspecialchars($_POST['mail']);
-  $mensaje = nl2br(htmlspecialchars($_POST['mensaje']));
+  if ($_POST['robot'] == 10) {
+    $nombre  = htmlspecialchars($_POST['nombre']);
+    $cel     = htmlspecialchars($_POST['cel']);
+    $mail    = htmlspecialchars($_POST['mail']);
+    $mensaje = nl2br(htmlspecialchars($_POST['mensaje']));
 
-  $asunto = "Contacto";
+    $asunto = "Contacto";
 
-  $cuerpo = '
+    $cuerpo = '
   <!DOCTYPE html>
   <html lang="es">
   
@@ -82,21 +83,27 @@ if (isset($_POST['btnSend'])) {
   
   </html>';
 
-  $headers  = "MIME-Version: 1.0\r\n";
-  $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
-  $headers .= "From: Sitio Web <no-reply@autoviaasistencia.com>\r\n";
-  $headers .= "Reply-To: " . $mail . "\r\n";
+    $headers  = "MIME-Version: 1.0\r\n";
+    $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+    $headers .= "From: Sitio Web <no-reply@autoviaasistencia.com>\r\n";
+    $headers .= "Reply-To: " . $mail . "\r\n";
 
-  if (mail("verdaluno@gmail.com, autoviaasistencia@gmail.com", $asunto, $cuerpo, $headers)) {
+    if (mail("verdaluno@gmail.com, autoviaasistencia@gmail.com", $asunto, $cuerpo, $headers)) {
 
-    echo "<script>
+      echo "<script>
                 alert('Gracias por enviar tus comentarios.');
                 window.location='index.php';
               </script>";
-  } else {
+    } else {
 
-    echo "<script>
+      echo "<script>
                 alert('No fue posible enviar el correo.');
+                history.back();
+              </script>";
+    }
+  } else {
+    echo "<script>
+                alert('Por favor digite la respuesta a la suma para comprobar que no eres un Robot');
                 history.back();
               </script>";
   }

@@ -1,66 +1,79 @@
-body{
-font-family:Segoe UI,sans-serif;
+body {
+    font-family: Segoe UI, sans-serif;
 }
 
-.hero{
-height:100vh;
-background:url("../img/fondo.jpg") center center;
-background-size:cover;
-position:relative;
+.hero {
+    height: 100vh;
+    background: url("../img/fondo.jpg") center center;
+    background-size: cover;
+    position: relative;
 }
 
-.hero::before{
-content:"";
-position:absolute;
-inset:0;
-background:rgba(0,0,0,.65);
+.fondouno {
+    position: relative;
+    width: 100%;
+    /* Ocupa toda la altura de la pantalla */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36)),
+        url("../img/fondo2.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
 }
 
-.hero .container{
-position:relative;
-z-index:2;
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, .65);
 }
 
-.card{
-transition:.3s;
+.hero .container {
+    position: relative;
+    z-index: 2;
 }
 
-.card:hover{
-transform:translateY(-8px);
+.card {
+    transition: .3s;
 }
 
-.social-icons{
-position:fixed;
-left:20px;
-top:50%;
-transform:translateY(-50%);
-display:flex;
-flex-direction:column;
-gap:15px;
-z-index:999;
+.card:hover {
+    transform: translateY(-8px);
 }
 
-.social-icons a{
-width:50px;
-height:50px;
-background:#021533;
-color:white;
-border-radius:50%;
-display:flex;
-justify-content:center;
-align-items:center;
-font-size:22px;
-text-decoration:none;
-transition:.3s;
+.social-icons {
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 999;
 }
 
-.social-icons a:hover{
-background:#021533;
-color:white;
+.social-icons a {
+    width: 50px;
+    height: 50px;
+    background: #021533;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.social-icons a:hover {
+    background: #021533;
+    color: white;
 }
 
 @media (max-width: 768px) {
-    .social-icons{
+    .social-icons {
         left: 50%;
         top: auto;
         bottom: 20px;
@@ -70,78 +83,180 @@ color:white;
     }
 }
 
+@media (max-width: 768px) {
+    .iconosp {
+        width: 350px;
+    }
+}
+
 .icocolor {
-color:#fb8b29;
+    color: #fb8b29;
 }
 
 .primacolor {
-background:#fb8b29;
-color:white;
+    background: #fb8b29;
+    color: white;
 }
 
 .duacolor {
-background:#021533;
-color:white;
+    background: #021533;
+    color: white;
 }
 
-.primacolor:hover{
-background:#d3680a !important;
-color:white;
+.primacolor:hover {
+    background: #d3680a !important;
+    color: white;
 }
 
-.btn-whatsapp{
-position:fixed;
-right:25px;
-bottom:25px;
-width:70px;
-height:70px;
-background:#25D366;
-color:white;
-border-radius:50%;
-display:flex;
-justify-content:center;
-align-items:center;
-font-size:36px;
-text-decoration:none;
-box-shadow:0 0 20px rgba(0,0,0,.25);
-z-index:999;
+.btn-whatsapp {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    width: 70px;
+    height: 70px;
+    background: #25D366;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    text-decoration: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .25);
+    z-index: 999;
 }
 
 /*==========================
 CASOS DE ÉXITO
 ==========================*/
 
-.testimonial-card{
-    border-radius:20px;
-    box-shadow:0 8px 20px rgba(0,0,0,.08);
-    transition:.35s;
+.testimonial-card {
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .08);
+    transition: .35s;
 }
 
-.testimonial-card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 18px 40px rgba(0,0,0,.15);
+.testimonial-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, .15);
 }
 
-.stars{
-    color:#FFC107;
-    font-size:20px;
+.stars {
+    color: #FFC107;
+    font-size: 20px;
 }
 
-.client-avatar{
-    width:55px;
-    height:55px;
-    border-radius:50%;
-    background:#FFC107;
-    color:#000;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-weight:bold;
-    font-size:18px;
+.client-avatar {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #FFC107;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
 }
 
-footer{
-background:#021533;
-color:white;
-padding:50px 0;
+footer {
+    background: #021533;
+    color: white;
+    padding: 50px 0;
+}
+
+.heroCarousel {
+    width: 100%;
+    max-width: 650px;
+    height: 420px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .25);
+}
+
+.heroCarousel-slides {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.heroCarousel-slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity .6s ease;
+}
+
+.heroCarousel-slide.active {
+    opacity: 1;
+    z-index: 1;
+}
+
+.heroCarousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.heroCarousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .45);
+    color: #fff;
+    cursor: pointer;
+    font-size: 22px;
+    transition: .3s;
+    z-index: 5;
+}
+
+.heroCarousel-btn:hover {
+    background: rgba(0, 0, 0, .7);
+}
+
+.heroCarousel-prev {
+    left: 15px;
+}
+
+.heroCarousel-next {
+    right: 15px;
+}
+
+.heroCarousel-dots {
+    position: absolute;
+    bottom: 18px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    z-index: 5;
+}
+
+.heroCarousel-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .45);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.heroCarousel-dot.active {
+    background: #fff;
+    transform: scale(1.2);
+}
+
+@media(max-width:768px) {
+
+    .heroCarousel {
+        height: 280px;
+    }
+
 }

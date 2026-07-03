@@ -2,6 +2,27 @@
 <html lang="es">
 
 <head>
+    <title>Autovía Asistencia | Tu varada, Nuestra Prioridad | Bogotá y sus Alrededores</title>
+
+    <meta name="description" content="Servicio de asistencia vehicular en Bogotá las 24 horas. Paso corriente, cambio de llanta, despinchado,  cerrajería vehicular, carga de batería, desbloqueo de vehículos, pérdida de llaves, atención de varadas en carretera y auxilio vial inmediato en Bogotá y alrededores. Venta de  toda clase de batería para vehículos  a gasolina , híbridos y eléctricos , instalación a domicilio y escáner para baterías.">
+
+    <meta name="keywords" content="asistencia vehicular Bogotá, grúas Bogotá, grúas 24 horas Bogotá, grúas 24/7 Bogotá, auxilio vial Bogotá, servicio de grúa Bogotá, grúa para carro Bogotá, grúa para moto Bogotá, paso corriente, paso de corriente Bogotá, carga de batería, batería descargada, cambio de batería, venta de batería, batería para hibrido, batería para carro eléctrico, cambio de llanta, llanta pinchada, pinchazo, reparación de llantas, cerrajería vehicular, apertura de vehículos, desbloqueo de carros, llaves dentro del carro, pérdida de llaves, duplicado de llaves, asistencia en carretera, varadas en carretera, auxilio mecánico, servicio de emergencia vehicular, rescate vehicular, servicio para vehículos varados, grúas cerca de mí, asistencia vehicular cerca de mí, servicio de grúa urgente, grúa económica Bogotá, grúa rápida Bogotá, asistencia automotriz Bogotá, servicio para carros varados, auxilio para motocicletas, grúas en Bogotá y alrededores, grúas en Soacha, grúas en Chía, grúas en Cota, grúas en Funza, grúas en Mosquera, grúas en Madrid, grúas en Cajicá, grúas en La Calera, servicio 24 horas, auxilio vial 24/7">
+
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Autovía Asistencia">
+    <meta name="language" content="es">
+    <meta name="revisit-after" content="7 days">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Autovía Asistencia">
+    <meta property="og:description" content="Auxilio vial inmediato en Bogotá y alrededores. Paso corriente, cambio de llanta, depinchado, cerrajería vehicular, carga de batería y grúas disponibles las 24 horas. Venta de  toda clase de batería para vehículos  a gasolina , híbridos y eléctricos , instalación a domicilio y escáner para baterías.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_CO">
+    <meta property="og:image" content="https://autoviaasistencia.com/img/banner.jpeg">
+    <meta property="og:url" content="https://autoviaasistencia.com">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://autoviaasistencia.com/">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +31,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
     <!-- Favicon para dispositivos Apple -->
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon.png">
-    <title>Autovía Asistencia - Tu Varada, Nuestra Prioridad</title>
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -29,9 +49,9 @@ REDES SOCIALES
 =========================== -->
 
     <div class="social-icons">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-tiktok"></i></a>
+        <a href="https://www.facebook.com/share/1VHBQ3N9Pa/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/autoviaasistencia" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@autoviaasistencia" target="_blank"><i class="fab fa-tiktok"></i></a>
     </div>
 
     <!-- ==========================
@@ -52,9 +72,10 @@ HERO
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-lg-7 text-white">
-                    <h1 class="display-4 fw-bold">
+                    <img class="iconosp" src="img/iconos.png" alt="iconos" width="540px">
+                    <h2 class="display-4 fw-bold">
                         ¿Necesitas ayuda en la vía?
-                    </h1>
+                    </h2>
                     <p class="lead my-4">
                         Nuestro personal desplegado estratégicamente llegará en minutos.
                     </p>
@@ -77,7 +98,7 @@ SERVICIOS
                 <h2>Servicios</h2>
             </div>
             <div class="row g-4">
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-2">
                     <div class="card h-100 shadow border-0">
                         <div class="card-body text-center">
                             <i class="fa-solid fa-car-battery fa-3x icocolor mb-3"></i>
@@ -89,7 +110,7 @@ SERVICIOS
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-2">
                     <div class="card h-100 shadow border-0">
                         <div class="card-body text-center">
                             <i class="fa-solid fa-truck fa-3x icocolor mb-3"></i>
@@ -102,7 +123,7 @@ SERVICIOS
                 </div>
 
 
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-2">
                     <div class="card h-100 shadow border-0">
                         <div class="card-body text-center">
                             <i class="fa-solid fa-gas-pump fa-3x icocolor mb-3"></i>
@@ -114,13 +135,37 @@ SERVICIOS
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-2">
                     <div class="card h-100 shadow border-0">
                         <div class="card-body text-center">
-                            <i class="fa-solid fa-screwdriver-wrench fa-3x icocolor mb-3"></i>
+                            <i class="fa-solid fa-car-burst fa-3x icocolor mb-3"></i>
                             <h5>Pinchazo</h5>
                             <p>
                                 Resolvemos en minutos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-2">
+                    <div class="card h-100 shadow border-0">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-gauge-high fa-3x icocolor mb-3"></i>
+                            <h5>Scanner</h5>
+                            <p>
+                                Validamos el estado real de tu batería.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-2">
+                    <div class="card h-100 shadow border-0">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-car-battery fa-3x icocolor mb-3"></i>
+                            <h5>Baterías</h5>
+                            <p>
+                                Venta para vehículos a gasolina, híbridos y electricos.
                             </p>
                         </div>
                     </div>
@@ -132,9 +177,64 @@ SERVICIOS
 
     </section>
 
+
+    <!-- ==========================
+DETALLES
+=========================== -->
+
+    <section class="duacolor py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Más Sobre Nosotros</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-6">
+                    Con más de <b>12 años </b>de experiencia, <b>Autovía Asistencia</b> es una empresa comprometída con la seguridad de las personas en la vía, dando respuesta rápida y efectiva a los diferentes contratiempos que se puedan presentar.
+                    </br>
+                    <h3>Misión</h3>
+                    <p>Brindar soporte automotriz inmediato, técnico y confiable en la vía, transformando imprevistos en tranquilidad. Nos movemos con agilidad para solucionar emergencias y garantizar que cada conductor continúe su camino de forma segura.</p>
+                    <h3>Visión</h3>
+                    <p>Para el 2030, ser la empresa líder en asistencia vial motorizada de la ciudad, reconocidos po nuestra velocidad de respuesta, precisión técnica y por conectar a conductores y flotas con soluciones a un solo clic.</p>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="heroCarousel">
+                        <div class="heroCarousel-slides">
+
+                            <div class="heroCarousel-slide active">
+                                <img src="img/001.png" alt="Imagen 1">
+                            </div>
+
+                            <div class="heroCarousel-slide">
+                                <img src="img/002.png" alt="Imagen 2">
+                            </div>
+
+                            <div class="heroCarousel-slide">
+                                <img src="img/003.png" alt="Imagen 3">
+                            </div>
+
+                        </div>
+
+                        <button class="heroCarousel-btn heroCarousel-prev">&#10094;</button>
+                        <button class="heroCarousel-btn heroCarousel-next">&#10095;</button>
+
+                        <div class="heroCarousel-dots">
+                            <span class="heroCarousel-dot active"></span>
+                            <span class="heroCarousel-dot"></span>
+                            <span class="heroCarousel-dot"></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
     <!-- CONTACTO -->
 
-    <section class="duacolor text-white py-5">
+    <section class="fondouno text-white py-5">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -155,6 +255,10 @@ SERVICIOS
                         </div>
                         <div class="mb-3">
                             <textarea class="form-control" rows="5" name="mensaje" placeholder="Describe la emergencia"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label>Robot test</label>
+                            <input type="text" class="form-control" name="robot" placeholder="Cuánto es 7+3">
                         </div>
                         <input class="btn primacolor w-100" type="submit" name="btnSend" value="Enviar">
                     </form>
@@ -280,7 +384,7 @@ CASOS DE ÉXITO
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img src="img/logo2.png" alt="logo" width="300px">
+                    <img src="img/logonew.png" alt="logo" width="300px">
                 </div>
             </div>
         </div>

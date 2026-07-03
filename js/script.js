@@ -1,13 +1,53 @@
-const carousel = document.querySelector('#carouselExample');
+const heroSlides = document.querySelectorAll(".heroCarousel-slide");
+const heroDots = document.querySelectorAll(".heroCarousel-dot");
 
-const bsCarousel = new bootstrap.Carousel(carousel,{
+let heroIndex = 0;
 
-interval:4000,
+function heroShowSlide(index){
 
-ride:'carousel',
+    heroSlides.forEach(slide=>slide.classList.remove("active"));
+    heroDots.forEach(dot=>dot.classList.remove("active"));
 
-pause:false,
+    heroSlides[index].classList.add("active");
+    heroDots[index].classList.add("active");
+}
 
-wrap:true
+document.querySelector(".heroCarousel-next").onclick=function(){
+
+    heroIndex++;
+    if(heroIndex>=heroSlides.length) heroIndex=0;
+
+    heroShowSlide(heroIndex);
+
+}
+
+document.querySelector(".heroCarousel-prev").onclick=function(){
+
+    heroIndex--;
+    if(heroIndex<0) heroIndex=heroSlides.length-1;
+
+    heroShowSlide(heroIndex);
+
+}
+
+heroDots.forEach((dot,i)=>{
+
+    dot.onclick=function(){
+
+        heroIndex=i;
+        heroShowSlide(heroIndex);
+
+    }
 
 });
+
+setInterval(function(){
+
+    heroIndex++;
+
+    if(heroIndex>=heroSlides.length)
+        heroIndex=0;
+
+    heroShowSlide(heroIndex);
+
+},5000);
