@@ -376,15 +376,33 @@ CASOS DE ÉXITO
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-3">
+                    <h2 class="mb-4">Instagram</h2>
+                    <!-- Elfsight Instagram Feed | Untitled Instagram Feed -->
+                    <script src="https://elfsightcdn.com/platform.js" async></script>
+                    <div class="elfsight-app-40248b80-6b3f-46bf-b9df-b2bd22512bc1" data-elfsight-app-lazy></div>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="mb-4">TikTok</h2>
+                    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@autoviaasistencia_ava/video/7661289729639386390" data-video-id="7661289729639386390" style="max-width: 605px;min-width: 325px;">
+                        <section> <a target="_blank" title="@autoviaasistencia_ava" href="https://www.tiktok.com/@autoviaasistencia_ava?refer=embed">@autoviaasistencia_ava</a> 🚀 ¡Bienvenidos a Autovía Asistencia AVA! 🚨 ¿Batería descargada? ¿Llanta pinchada? ¿Te quedaste varado? ¡No te preocupes! Estamos listos para ayudarte cuando más lo necesites, brindándote un servicio rápido, confiable y profesional. 🛠️ Nuestros servicios: 🔋 Reinicio de batería 🔓 Apertura de vehículo ⛽ Suministro de combustible 📟 Scanner de batería 🪫 Venta de baterías 🛞 Cambio y despinche 📲 ¿Necesitas ayuda en la vía? 💬 Escríbenos por WhatsApp: 📱 324 911 7505 🔵🟠⚪ ◉ LLEGAMOS MÁS RÁPIDO. LLEGAMOS EN MOTO. ◉ ⚪🟠🔵 💾 Guarda esta publicación, síguenos y compártela con tus familiares y amigos. Nunca sabes cuándo una asistencia oportuna puede hacer la diferencia. <a title="AutovíaAsistenciaAVA" target="_blank" href="https://www.tiktok.com/tag/Autov%C3%ADaAsistenciaAVA?refer=embed">#AutovíaAsistenciaAVA</a> <a title="AVA" target="_blank" href="https://www.tiktok.com/tag/AVA?refer=embed">#AVA</a> <a title="AsistenciaVehicular" target="_blank" href="https://www.tiktok.com/tag/AsistenciaVehicular?refer=embed">#AsistenciaVehicular</a> <a title="AuxilioVial" target="_blank" href="https://www.tiktok.com/tag/AuxilioVial?refer=embed">#AuxilioVial</a> <a title="EmergenciaVial" target="_blank" href="https://www.tiktok.com/tag/EmergenciaVial?refer=embed">#EmergenciaVial</a> <a target="_blank" title="♬ sonido original - AutovíaAsistencia_AVA" href="https://www.tiktok.com/music/sonido-original-7661289756520647446?refer=embed">♬ sonido original - AutovíaAsistencia_AVA</a> </section>
+                    </blockquote>
+                    <script async src="https://www.tiktok.com/embed.js"></script>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="mb-4">Facebook</h2>
+                    <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2118212035792931%2F&show_text=true&width=476&t=0" width="100%" height="591" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/logonew.png" alt="logo" width="300px">
+                </div>
+                <div class="col-md-12">
                     <div class="container text-center">
                         <h4>Autovía Asistencia</h4>
                         <p>autoviaasistencia@gmail.com</p>
                         <p>Disponible todos los días.</p>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <img src="img/logonew.png" alt="logo" width="300px">
+
                 </div>
             </div>
         </div>
